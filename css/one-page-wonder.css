@@ -1,0 +1,86 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "proxima-nova",sans-serif;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #07A4B5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 100px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    text-align: right;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.featurette-left {
+    margin: 80px 0;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+.featurette-middle {
+    margin: 80px 0;
+    overflow: hidden;
+}
+
+.featurette-right {
+    margin: 80px 0;
+    overflow: hidden;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+
+
+}
+
+@media(max-width:991px) {
+
+}
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width:668px) {
+
+}
