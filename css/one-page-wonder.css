@@ -5,6 +5,7 @@
  */
 
 body {
+    background-color: #F9FCFD;
     font-family: "proxima-nova",sans-serif;
 }
 
@@ -23,10 +24,12 @@ body {
     padding: 50px 0;
 }
 
+.headline img {
+    width: 80%;
+}
+
 h1 {
-    font-size: 100px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-size: 90px;
     text-align: right;
 }
 
@@ -44,8 +47,10 @@ h1 {
 
 h2 {
     font-size: 30px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+}
+
+p {
+    font-size: 20px;
 }
 
 .featurette-left {
@@ -64,23 +69,167 @@ h2 {
     overflow: hidden;
 }
 
+
+
+
+
+
+.volunteer {
+    background: #C9EFF9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.volunteer h2 {
+    color: #07A4B5;
+}
+
+.btn-default {
+    color: #07A4B5;
+    background-color: #fff;
+    border-color: #07A4B5;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #07A4B5;
+    border-color: #07A4B5;
+}
+
+
+
+
+
+
+.description {
+    padding: 80px 0;
+}
+
+.description h1 {
+    text-align: center;
+}
+
+.description img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+
 footer {
+    color: #fff;
     margin: 50px 0;
 }
 
+.footer {
+    background-color: #718CA1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:1200px) {
-
-
+    h1 {
+        font-size: 73px;
+    }
 }
 
-@media(max-width:991px) {
-
+@media(max-width:995px) {
+    h1 {
+        font-size: 53px;
+    }
+    h2 {
+        font-size: 21px;
+    }
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
+    .featurette-left {
+        margin: 30px 0;
+        padding-right: 15px;
+    }
+    
+    .featurette-middle {
+        margin: 30px 0;
+    }
 
+    .featurette-right {
+        margin: 30px 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .description img {
+        width: 80%;
+    }
 }
 
-@media(max-width:668px) {
-
+@media(max-width:575px) {
+    h2 {
+        font-size: 20px;
+    }
 }
+
+@media(max-width:432px) {
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:350px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
