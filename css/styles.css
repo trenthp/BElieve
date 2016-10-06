@@ -91,7 +91,7 @@ p {
     transition: all 0.3s ease 0s;
 }
 
-.btn-default:hover {
+.btn-default:hover, .btn-default:active {
     color: #fff;
     background-color: #07A4B5;
     border-color: #07A4B5;
