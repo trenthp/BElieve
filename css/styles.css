@@ -7,13 +7,24 @@
 body {
     background-color: #F9FCFD;
     font-family: "proxima-nova",sans-serif;
+    border: 20px solid #b0dfe5;
+}
+
+a {
+    color: #1287b5;
+}
+
+.btn {
+    border-radius: 100px;
+    text-transform: uppercase;
 }
 
 .header-image {
     display: block;
+    color: #ffffff;
     width: 100%;
     text-align: center;
-    background: #07A4B5;
+    background: #35cada;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -79,32 +90,32 @@ p {
 
 
 .volunteer {
-    background: #C9EFF9;
+    background: #b0dfe5;
     padding: 80px 0;
     text-align: center;
 }
 
 .volunteer h2 {
-    color: #07A4B5;
+    color: #35cada;
     font-size: 48px;
 }
 
 .volunteer h3 {
-    color: #07A4B5;
+    color: #35cada;
     font-size: 32px;
 }
 
 .btn-default {
-    color: #07A4B5;
-    background-color: #fff;
-    border-color: #07A4B5;
+    color: #fff;
+    background-color: #35cada;
+    border-color: #35cada;
     transition: all 0.3s ease 0s;
 }
 
 .btn-default:hover, .btn-default:active {
-    color: #fff;
-    background-color: #07A4B5;
-    border-color: #07A4B5;
+    color: #35cada;
+    background-color: #fff;
+    border-color: #35cada;
 }
 
 
@@ -116,6 +127,21 @@ p {
     background: #a3cdd8;
     padding: 80px 0;
     text-align: center;
+}
+
+
+
+
+
+.panel {
+    padding: 64px 80px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+}
+
+.panel-body p {
+    margin: 24px 0;
 }
 
 
@@ -149,7 +175,7 @@ footer {
 }
 
 .footer {
-    background-color: #718CA1;
+    background-color: #1287b5;
 }
 
 
@@ -199,17 +225,38 @@ footer {
     .description img {
         width: 80%;
     }
+    .headline {
+        padding: 32px 0;
+    }
 }
 
 @media(max-width:575px) {
     h2 {
         font-size: 20px;
     }
+    .headline img {
+        width: 40%;
+    }
+    .panel {
+        padding: 40px 32px;
+    }
+    .panel-body p {
+        margin: 8px 0;
+    }
 }
 
 @media(max-width:432px) {
     h2 {
         font-size: 14px;
+    }
+    .headline img {
+        width: 56%;
+    }
+    .panel {
+        padding: 24px;
+    }
+    .panel-body p {
+        margin: 0px;
     }
 }
 
@@ -219,6 +266,12 @@ footer {
     }
     h2 {
         font-size: 12px;
+    }
+    .headline img {
+        width: 80%;
+    }
+    .panel {
+        padding: 24px 8px;
     }
 }
 
